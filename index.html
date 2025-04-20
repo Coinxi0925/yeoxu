@@ -6,20 +6,24 @@
     <title>
       Portfolio of Lee Yeon-Woo
     </title>
+    <meta name="description" content="이 페이지의 제작자는 이연우입니다. 개인 포트폴리오입니다 !">
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
-    <header><h1>이연우의 포트폴리오</h1></header>
+    <header><h1 style="color:firebrick">이연우의 포트폴리오</h1></header>
+    <h2 class="color-primary">목차</h2>
     <nav>
-      <a href="#overview">소개</a>
-      <a href="#interests">관심사</a>
-      <a href="#education">학력</a>
-      <a href="#research">연구</a>
-      <a href="#projects">프로젝트</a>
+      <li><a href="#overview" class="color-primary">소개</a></li>
+      <li><a href="#interests" class="color-primary">관심사</a></li>
+      <li><a href="#education" class="color-primary">학력</a></li>
+      <li><a href="#research" class="color-primary">연구</a></li>
+      <li><a href="#projects" class="color-primary">프로젝트</a></li>
     </nav>
     <section class="overview" id="overview">
       <img src="./media/profilebear.jpg" width="250", height="250" alt="프로필 이미지" class="profile-img">
+      <h5><프로필 사진></h5>
       <div class="contact">
+        <h1 class="color-primary">소개</h1>
         <h2>Contact me ! </h2>
         <div class="contact-item">
           <span class="label">✉️ email:</span>
@@ -31,11 +35,7 @@
         </div>
         <div class="contact-item">
           <span class="label">🐙 Github:</span>
-          <a href="https://github.com/hayunjong83" target="_blank"> https://github.com/hayunjong83</a>
-        </div>
-        <div class="contact-item">
-          <span class="label">🔗 LinkedIn:</span>
-          <a href="https://www.linkedin.com/in/yun-jong-ha-4368781a1/" target="_blank"> YunJong Ha</a>
+          <a href="https://github.com/Coinxi0925/yeoxu.git" target="_blank"> https://github.com/Coinxi0925/yeoxu.git</a>
         </div>
         <div class="contact-item">
           <span class="label">💻 Youtube:</span>
@@ -44,48 +44,51 @@
       </div>
     </section>
     <section class="interests" id="interests">
-      <h2>💼 관심사</h2>
+      <h2 class="color-primary">관심사</h2>
       <details>
-        <summary>관심사는 무엇일까</summary>
+        <summary class="colorsec">관심사는 무엇일까</summary>
         <div>
           <ul>
-            <li>먼작귀(먼가 작고 귀여운 녀석들)</li>
-            <li>뮤지컬</li>
-            <li>보컬</li>
+            <li class="colorsec">먼작귀(먼가 작고 귀여운 녀석들)</li>
+            <li class="colorsec">뮤지컬</li>
+            <li class="colorsec">보컬</li>
           </ul>
         </div>
       </details>
     </section>
     
     <section class="education" id="education">
-      <h2>🏫 학력</h2>
+      <h2 class="color-primary"> 학력</h2>
       <ul>
-        <li>호그와트 그리핀도르</li>
-        <li>제 90회 퀴디치 대회 우수상</li>
+        <li class="colorthr">호그와트 그리핀도르</li>
+        <li class="colorthr">제 90회 퀴디치 대회 우수상</li>
       </ul>
     </section>
     
     <section class="research" id="research">
-      <h2>📚 연구</h2>
+      <h2 class="color-primary">연구</h2>
+      <li class="colorfour">패트로누스 마법 연구</li>
+      <li class="colorfour">어둠의 마법 방어술 연구</li>
+      <li class="colorfour">변신술 연구</li>
     </section>
     
     <section class="projects" id="projects">
-      <h2>📁 프로젝트</h2>
+      <h2 class="color-primary">프로젝트</h2>
       <ol>
-        <li>덕성여자대학교 맛집 소개 프로젝트<br>
-          : 덕성여자대학교 주변의 맛집 정보를 담은 웹 사이트 제작
+        <li class="colorfive">먼작귀 소개 프로젝트<br>
+          : 먼가 작고 귀여운 녀석들(애니메이션)의 정보를 담은 웹 사이트를 제작하였다.
           <div class="project-table-wrapper">
             <table class="project-table">
               <tr>
                 <td>
-                  <a href="https://hayunjong2025.github.io/duksung_diner/" target="_blank">
+                  <a href="https://github.com/Coinxi0925/Chiikawa_characters.git" target="_blank">
                     <img src="./media/profilebear.jpg" width="250", height="250" alt="프로젝트 1" />
                   </a>
                 </td>
                 <td>
-                  <a href="https://github.com/hayunjong2025/duksung_diner">https://github.com/hayunjong2025/duksung_diner</a>
-                  <!-- <a href="https://hayunjong2025.github.io/duksung_diner/" target="_blank">
-                    <img src="./media/profilebear.jpg"  alt="프로젝트 2" /> -->
+                  <a href="https://github.com/Coinxi0925/Chiikawa_characters.git">https://github.com/Coinxi0925/Chiikawa_characters.git</a>
+                  <h5>이미지를 누르면 깃허브로 연결됩니다!</h5>
+                  <!-- 프로필 사진을 눌러도 깃허브 링크에 접속할 수 있다. branch를 master로 바꿔야 볼 수 있다. /> -->
                   </a>
                 </td>
               </tr>
@@ -95,5 +98,11 @@
       </ol>
       
     </section>
+    <footer>
+      <!-- 꼬리말 입력 /> -->
+      <small>page made by : 이연우</small><br>
+      <small>email : yeondu333@gmail.com</small><br>
+      <small>my first portfolio</small><br>
+    </footer>
   </body>
 </html>
